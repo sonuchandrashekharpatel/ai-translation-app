@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="index.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <title>Translation App</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="header flex-center">
+                    <img class="parrot" src="images/parrot.png" alt="flying parrot">
+                    <div>
+                        <h1 class="title">PollyGot</h1>
+                        <p class="header-p">Perfect Translation Every Time</p>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <h2 class="main">Text to translate 👇</h2>
+                <form class="form">
+                    <textarea placeholder="How are you?"></textarea>
+                    <h2>Select Language 👇</h2>
+                    
+                    <label for="hindi">
+                        <input id="hindi" type="radio" value="hindi" name="language">Hindi
+                        <img class="in-flag" src="images/in-flag.png" alt="India flag">
+                    </label>
+
+                    <label for="french">
+                        <input id="french" type="radio" value="french" name="language">French
+                        <img src="images/fr-flag.png" alt=" flag">
+                    </label>
+                    
+                    <label for="spanish">
+                        <input id="spanish" type="radio" value="spanish" name="language">Spanish
+                        <img src="images/sp-flag.png" alt=" flag">
+                    </label>
+                    
+                    <label for="japanese">
+                        <input id="japanese" type="radio" value="japanese" name="language">Japanese
+                        <img src="images/jpn-flag.png" alt="Japan flag">
+                    </label>
+                    
+    
+                    <button>Translate</button>
+                </form>
+            </main>
+        </div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
