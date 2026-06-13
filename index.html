@@ -22,34 +22,43 @@
                 </div>
             </header>
             <main>
-                <h2 class="main">Text to translate 👇</h2>
-                <form class="form">
-                    <textarea placeholder="How are you?"></textarea>
-                    <h2>Select Language 👇</h2>
-                    
-                    <label for="hindi">
-                        <input id="hindi" type="radio" value="hindi" name="language">Hindi
-                        <img class="in-flag" src="images/in-flag.png" alt="India flag">
-                    </label>
-
-                    <label for="french">
-                        <input id="french" type="radio" value="french" name="language">French
-                        <img src="images/fr-flag.png" alt=" flag">
-                    </label>
-                    
-                    <label for="spanish">
-                        <input id="spanish" type="radio" value="spanish" name="language">Spanish
-                        <img src="images/sp-flag.png" alt=" flag">
-                    </label>
-                    
-                    <label for="japanese">
-                        <input id="japanese" type="radio" value="japanese" name="language">Japanese
-                        <img src="images/jpn-flag.png" alt="Japan flag">
-                    </label>
-                    
+                <div id="translation-section" class="">
+                    <h2 class="main">Text to translate 👇</h2>
+                    <form class="form">
+                        <textarea id="text-area" placeholder="How are you?"></textarea>
+                        <h2>Select Language 👇</h2>
+                        
+                        <label for="hindi">
+                            <input id="hindi" type="radio" value="hindi" name="language">Hindi
+                            <img class="in-flag" src="images/in-flag.png" alt="India flag">
+                        </label>
     
-                    <button>Translate</button>
-                </form>
+                        <label for="french">
+                            <input id="french" type="radio" value="french" name="language">French
+                            <img src="images/fr-flag.png" alt=" flag">
+                        </label>
+                        
+                        <label for="spanish">
+                            <input id="spanish" type="radio" value="spanish" name="language">Spanish
+                            <img src="images/sp-flag.png" alt=" flag">
+                        </label>
+                        
+                        <label for="japanese">
+                            <input id="japanese" type="radio" value="japanese" name="language">Japanese
+                            <img src="images/jpn-flag.png" alt="Japan flag">
+                        </label>
+        
+                        <button class="translate-btn" id="translate-btn">Translate</button>
+                    </form>
+                </div>
+                <div id="translated-section" class="display-none">
+                    <h2>Original text 👇</h2>
+                    <div class="original-text-box"><p>How are you?</p></div>
+                    <h2>Your translation 👇</h2>
+                    <div class="translation-box"><p>Comment allez-vous?</p></div>
+
+                    <button class="start-over-btn" id="start-over-btn">Start Over</button>
+                </div>
             </main>
         </div>
         <script type="module" src="index.js"></script>
