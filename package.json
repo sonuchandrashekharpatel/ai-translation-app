@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "openai": "^6.42.0"
+  },
+  "name": "ai-translation-app",
+  "version": "1.0.0",
+  "description": "Translate the english text in given languages using chat completion API",
+  "main": "index.js",
+  "devDependencies": {
+    "vite": "^8.0.16"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonuchandrashekharpatel/ai-translation-app.git"
+  },
+  "author": "Sonu Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonuchandrashekharpatel/ai-translation-app/issues"
+  },
+  "homepage": "https://github.com/sonuchandrashekharpatel/ai-translation-app#readme"
+}
