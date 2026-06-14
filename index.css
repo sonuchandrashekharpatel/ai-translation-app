@@ -119,3 +119,7 @@ button:active {
 .display-none {
     display: none
 }
+
+.wait {
+    cursor: wait;
+}
